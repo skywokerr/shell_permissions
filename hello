@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Set the file permissions for hello to -rwxr-x-wx
+chmod 751 hello
+
+# Verify the change
+ls -l hello
